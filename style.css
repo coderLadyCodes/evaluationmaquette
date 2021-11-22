@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;900&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;;
+}
+
+.first{
+    background-image:url("images/arbre.jpg");
+    height:100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+header{
+    display:flex;
+    flex-direction: row;
+}
+
+header h3{
+    flex:6;
+    padding:3rem;
+    cursor: pointer;
+}
+
+header ul{
+    flex:6;
+}
+
+header ul{
+    display:flex;
+}
+
+header ul li {
+    padding:3rem;
+    cursor: pointer;
+    list-style: none;
+}
+
+.first .top{
+    width:30%;
+    display:flex;
+    flex-direction: column;
+    position:relative;
+    top:30%;
+    left:60%;
+}
+
+.first .top h1{
+    font-size: 4.4rem;
+    font-weight: 1000;
+    position:relative;
+}
+
+.first .top h1:after{
+    content:"";
+    width:8rem;
+    height:4px;
+    background-color:#000;
+    position:absolute;
+    top:94%;
+    left:69%;
+}
+
+.first .top p{
+    text-align: end;
+    width:100%;
+    padding:1rem;
+    line-height: 2rem;
+    font-weight: 400;
+}
+
+.first .top h3{
+    text-align:center;
+    font-weight: 400;
+    margin:1rem;
+    padding:10px;
+    border: 1px solid #000;
+    cursor: pointer;
+}
+
+
+/**********************************SECOND*******************************/
+
+
+.second{
+    display:flex;
+    flex-direction: column;
+    /*height:100vh;*/
+    align-items: center;
+    justify-content: center;
+}
+
+
+.second .haut{
+    height:55vh;
+    display:flex;
+    width:50%;
+    flex-direction:column;
+    margin:3rem;
+}
+
+.second .haut h3{
+    font-weight: 900;
+    padding:1rem;
+    text-align: center;
+}
+
+.second .haut i{
+    font-size: 2rem;
+    font-weight: 200;
+}
+
+.second .haut p{
+    line-height: 3rem;
+    font-size: 1rem;
+}
+
+
+.second .haut p, i{
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+
+
+.second .bas{
+    display:flex;
+    height:60vh;
+    background-color:lightgrey;
+    width:100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.second .bas .meme{
+    width:30%;
+}
+
+
+.second .bas .un{
+    text-align: start;
+}
+
+.second .bas i{
+    padding:2rem;
+    font-size: 2rem;
+}
+
+.second .bas h3{
+    text-align: start;
+    padding:2rem;
+}
+
+.second .bas p{
+    width:80%;
+    font-weight: 400;
+}
+
+/**********************************THIRD*******************************/
+
+article{
+    display:flex;
+    flex-direction: column;
+    height:100vh;
+}
+
+.articleone{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:40vh;
+}
+
+.articleone  h3{
+    font-size: 2rem;
+    letter-spacing: 2px;
+    padding:2rem;
+}
+
+.articleone p{
+    text-align: center;
+    width:50%;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 2rem;;
+}
+
+
+.articletwo{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    margin:5rem 5%;
+    color:#fff;
+}
+
+
+.articletwo .blocs{
+    background-color:rgb(29, 28, 28);
+    height:40vh;
+    width:50vh;
+    padding:2rem;
+}
+
+
+/* .articletwo .bloc1{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+} */
+
+.articletwo .blocs h4{
+    font-weight: 400;
+    padding:5px;
+}
+
+.articletwo .blocs p{
+    text-align: center;
+    font-weight: 400;
+    padding:1rem;
+}
+
+
+.articletwo .blocs  .image{
+    display: flex;
+    align-items: flex-end;
+    margin-top: 2rem;
+}
+
+
+/* .articletwo .blocs .date{
+    margin:1rem;
+} */
+
+
+.articletwo .blocs .image img{
+    border-radius: 50%;
+}
+
+
